@@ -1,31 +1,27 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'home_navigation_provider.dart';
+part of 'sync_controller_provider.dart';
 
 // **************************************************************************
 // RiverpodGenerator
 // **************************************************************************
 
-String _$homeNavigationServiceHash() =>
-    r'f03c14873caf1ce8f4f324ef853a3117d17c2276';
+String _$syncControllerHash() => r'b41c1cd0e1fbb674da48a4675f5004c845c9a467';
 
-/// See also [homeNavigationService].
-@ProviderFor(homeNavigationService)
-final homeNavigationServiceProvider =
-    AutoDisposeProvider<HomeNavigationService>.internal(
-      homeNavigationService,
-      name: r'homeNavigationServiceProvider',
+/// See also [SyncController].
+@ProviderFor(SyncController)
+final syncControllerProvider =
+    AutoDisposeNotifierProvider<SyncController, void>.internal(
+      SyncController.new,
+      name: r'syncControllerProvider',
       debugGetCreateSourceHash:
           const bool.fromEnvironment('dart.vm.product')
               ? null
-              : _$homeNavigationServiceHash,
+              : _$syncControllerHash,
       dependencies: null,
       allTransitiveDependencies: null,
     );
 
-@Deprecated('Will be removed in 3.0. Use Ref instead')
-// ignore: unused_element
-typedef HomeNavigationServiceRef =
-    AutoDisposeProviderRef<HomeNavigationService>;
+typedef _$SyncController = AutoDisposeNotifier<void>;
 // ignore_for_file: type=lint
 // ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member, deprecated_member_use_from_same_package
